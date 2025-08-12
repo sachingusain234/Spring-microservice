@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api")
 public class PublicController {
     private List<Demo> students = Arrays.asList(
-            new Demo(1,"Sachin Gusain",92),
+            new Demo(1,"Bruce Wayne",92),
             new Demo(2,"Barry Allen",93),
             new Demo(3,"John Cena",94)
             );
@@ -21,3 +21,4 @@ public class PublicController {
         return students;
     }
 }
+
